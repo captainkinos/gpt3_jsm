@@ -1,0 +1,26 @@
+.gpt3__brand {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 46px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* lebar dan tinggi div harus ditentukan agar flex-wrap bisa berfungsi */
+.gpt3__brand div {
+  flex: 1;
+  max-width: 150px;
+  min-width: 120px;
+  margin: 1em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1050px) {
+  .gpt3__brand {
+    width: 100%;
+    gap: 16px;
+  }
+}
