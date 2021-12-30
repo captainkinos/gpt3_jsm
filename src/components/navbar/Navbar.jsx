@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import "./navbar.css";
-import logo from "./../../assets/logo.svg";
+import logo from "./../../assets/logo.png";
 
 //BEM => Block Element Modifier
 
