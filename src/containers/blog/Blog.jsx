@@ -48,7 +48,7 @@ const articleData = [
 
 const Blog = () => {
   return (
-    <div className="gpt3__blog section__padding">
+    <div className="gpt3__blog section__padding" id="blog">
       <div className="gpt3__blog-heading">
         <h1 className="gradient__text">
           A lot is happening,

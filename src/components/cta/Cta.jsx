@@ -11,7 +11,7 @@ const Cta = () => {
         <h3>Register today & start exploring the endless possiblities.</h3>
       </div>
       <div className="gpt3__cta-button">
-        <a>Get Started</a>
+        <a href="#">Get Started</a>
       </div>
     </div>
   );

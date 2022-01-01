@@ -1,8 +1,9 @@
 import React from "react";
 import { useState } from "react";
+import ScrollAnimation from "react-animate-on-scroll";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import "./navbar.css";
-import logo from "./../../assets/logo.png";
+import logo from "./../../assets/logo.svg";
 
 //BEM => Block Element Modifier
 
